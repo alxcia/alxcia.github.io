@@ -1,1 +1,137 @@
 <h1>rv</h1>
+<!DOCTYPE html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link href="/normalize.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Fira+Mono" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url('https://78.media.tumblr.com/f2b326e147955b7b97b87184b273419d/tumblr_olje458lU91si0kwmo1_500.jpg');
+      background-size: cover;
+      color: white;
+      
+      background-position: center;
+    
+      font-family: VT323;
+    }
+    }
+    a {
+      color: red;
+    }
+    h1 {
+      font-size: 100px;
+      font-family: VT323;
+      color: red;
+      
+    }
+    img {
+      width:230;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(,0,9,0.5);
+      font-family: lucida;
+    }
+    li {
+      display: inline;
+      padding: 26px 10px 0px 10px;
+      font-family: VT323;
+      font-size: 30px;
+      
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+      color: white;
+    }
+    p {
+      text-align:center;
+      font-family: Fira Mono;
+      color: white;
+    }
+    h2 {
+      font-family: Fira Mono;
+    }
+    button {
+        background: white;
+      }
+       body {
+         text-align:center;
+        background: red;
+       }
+    input {
+      text-align:center;
+  
+      border: 0;
+      padding: 10px;
+      font-size: 24px;
+    }
+    input[type="submit"] {
+      background: grey;
+      color: white;
+      font-family: 
+      }
+    h3 {
+      font-family: VT323; 
+      font-size: 56px;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+        font-family: VT323;
+      }
+      button {
+        background: white;
+      }
+      body {
+        background: red;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://media.tenor.com/images/db5c9c30b03bbb9401312d2e5fc4a75a/tenor.gif">
+    <h1>ALXCIA</h1>
+    <ul>
+      <li><a href="http://historylists.org/art/list-of-7-masterpieces-of-modern-art.html" target="_blank">Modern Art</a></li>
+      <li><a href="https://brightside.me/article/100-best-photographs-without-photoshop-46555/">Photography</a></li>
+      <li><a href="https://www.theflowerexpert.com/content/aboutflowers/tropical-flowers">Flowers</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>Impressionalism</h2>
+    <p>Impressionalism began around the 1860s. Impressionalism is a type of modern art that consists of delicate, and light brush strokes that are still visible. The best known piece of impressonalism is 'Starry Night' by Van Gogh.  </p>
+    <button>Learn More</button>
+  </article>
+  <article>
+    <h2>Photography</h2>
+    <p>The art and/or practice of capturing photographs by using a camera that directs the image of an object onto a surface that is sensitive to light. There are many types of phtotography.. architectural, fashion, and  food photographyjust to name a few.  </p>
+    <button>Learn More</button>
+  </article>
+  <article>
+    <h2>Tropical beauties</h2>
+    <p>There are many types of flowers. Tropical flowers seem to be more strange looking, which tends to catch my eye. One of my favorite flowers are Blood Lilies. This particular flower has big spherical umbel containing of up to 100 flowers You can find these in Africa.</p>
+    <button>Learn more</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("SURPRISE");
+    });
+  </script>
+  </head>
+  <img src="http://68.media.tumblr.com/fa4310c9cf7bdf14e15a887c33281e6c/tumblr_onhr6q6BCO1uv1z86o1_500.gif">
+  <h3>no bev?</h3>
+  <input type="email" placeholder="Your email" id="rv">
+  <input type="submit" onClick="alert(rv.value)">
+</body>
